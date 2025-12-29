@@ -1,0 +1,38 @@
+name: archiviopost
+description: Archivio personale di post social
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Database locale
+  sqflite: ^2.3.0
+  sqflite_common_ffi: ^2.3.0
+  path_provider: ^2.1.1
+
+  # State management
+  provider: ^6.0.5
+
+  # Preferenze utente (tema, backup, impostazioni)
+  shared_preferences: ^2.2.2
+
+  # Backup / Import JSON
+  file_picker: ^8.0.0
+
+  # Share intent (Android / iOS)
+  receive_sharing_intent: ^1.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
