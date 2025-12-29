@@ -27,9 +27,6 @@ dependencies:
   # Backup / Import JSON
   file_picker: ^8.0.0
 
-  # Share intent (Android / iOS)
-  receive_sharing_intent: ^1.8.0
-
 dev_dependencies:
   flutter_test:
     sdk: flutter
